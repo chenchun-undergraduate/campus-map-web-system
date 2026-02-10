@@ -49,6 +49,7 @@ Supporting resources such as images and map-related assets
 are maintained in dedicated directories to support visualization，
 and user interaction.
 
+```text
 CampusMap/
 ├── index.html                # Login entry page
 ├── campusMap.html            # Main interactive campus map (SVG-based)
@@ -66,6 +67,7 @@ CampusMap/
 │
 ├── imgs/                     # UI images and assets
 └── map/                      # SVG map files and related resources
+、、、
 
 ## Key Features
 
