@@ -44,6 +44,29 @@ and handle communication with the underlying database.
 CSS and client-side scripts are responsible for layout control,
 visual presentation, and interactive behavior,
 allowing frontend views and backend logic to remain loosely coupled.
+
+Supporting resources such as images and map-related assets
+are maintained in dedicated directories to support visualization，
+and user interaction.
+
+CampusMap/
+├── index.html                # Login entry page
+├── campusMap.html            # Main interactive campus map (SVG-based)
+├── BusinessFaculty.html      # Building detail page
+├── GHKBuilding.html
+├── ComprehensiveStadium.html
+├── StudentLearning&ActivityCenter.html
+│
+├── style.css                 # Global UI styling
+│
+├── login.php                 # User authentication logic
+├── signup.php                # User registration
+├── logout.php                # Session termination
+├── db.php                    # Database connection (PDO)
+│
+├── imgs/                     # UI images and assets
+└── map/                      # SVG map files and related resources
+
 ## Key Features
 
 - SVG-based interactive campus map with event-driven interaction
