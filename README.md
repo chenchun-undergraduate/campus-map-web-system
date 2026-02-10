@@ -69,7 +69,7 @@ campus-map-web-system/
 │   └── db.php        # Database connection & query handling
 │
 ├── database/
-│   └── Database_Screenshot.png
+│   └── CampusStudent.sql
 │
 └── README.md
 
