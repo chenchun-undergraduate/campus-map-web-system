@@ -50,23 +50,29 @@ are maintained in dedicated directories to support visualization，
 and user interaction.
 
 ```text
-CampusMap/
-├── index.html                # Login entry page
-├── campusMap.html            # Main interactive campus map (SVG-based)
-├── BusinessFaculty.html      # Building detail page
-├── GHKBuilding.html
-├── ComprehensiveStadium.html
-├── StudentLearning&ActivityCenter.html
+campus-map-web-system/
+├── frontend/
+│   ├── index.html
+│   ├── campusMap.html
+│   ├── BusinessFaculty.html
+│   ├── GHKBuilding.html
+│   ├── StudentLearning&ActivityCenter.html
+│   ├── ComprehensiveStadium.html
+│   ├── style.css
+│   ├── imgs/
+│   └── map/          # SVG-based interactive campus map
 │
-├── style.css                 # Global UI styling
+├── backend/
+│   ├── login.php
+│   ├── signup.php
+│   ├── logout.php
+│   └── db.php        # Database connection & query handling
 │
-├── login.php                 # User authentication logic
-├── signup.php                # User registration
-├── logout.php                # Session termination
-├── db.php                    # Database connection (PDO)
+├── database/
+│   └── Database_Screenshot.png
 │
-├── imgs/                     # UI images and assets
-└── map/                      # SVG map files and related resources
+└── README.md
+
 ```
 
 
