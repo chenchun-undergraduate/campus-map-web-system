@@ -46,8 +46,7 @@ visual presentation, and interactive behavior,
 allowing frontend views and backend logic to remain loosely coupled.
 
 Supporting resources such as images and map-related assets
-are maintained in dedicated directories to support visualization，
-and user interaction.
+are maintained in dedicated directories to support visualization, and user interaction.
 
 ```text
 campus-map-web-system/
